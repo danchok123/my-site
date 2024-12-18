@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/c.css">
+    <title>Отзывы о сайте</title>
+    <style>
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://dalanews.kz/uploads/thumbnail/20240128163518346.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c4c6b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .reviews {
+            margin-top: 20px;
+        }
+        .review {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .review h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #45667c;
+        }
+    
+        .reviews h2 {
+            
+            color: #ffffff;
+        }
+        .review p {
+            font-size: 1em;
+            color: #555;
+        }
+        .review .date {
+            font-size: 0.9em;
+            color: #ffffff;
+        }
+        .form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form input, .form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form button {
+            background-color: #396da1;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background-color: #2980b9;
+        }
+        button{
+            margin-right: 2000px;
+            margin-top: -100px;
+        }
+        button {
+            width: 100px;
+            height: 50px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Отзывы</h1>
+            <nav>
+                <ul>
+                    <li><a href="до.html">Тарихи жерлер</a></li>
+                    <li><a href="Инструменты.html">Мәдениет және дәстүрлер</a></li>
+                    <li><a href="кухня.html">Ұлттық тағамдар</a></li>
+                    <li><a href="контакты.html">Байланыс</a></li>
+                    <li><a href="Отзывы.html">Пікірлер</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="form">
+            <h2>Оставьте ваш отзыв</h2>
+            <form action="#">
+                <input type="text" id="name" placeholder="Ваше имя" required>
+                <textarea id="review" rows="5" placeholder="Ваш отзыв..." required></textarea>
+                <button type="submit">Отправить отзыв</button>
+            </form>
+        </div>
+
+        <div class="reviews">
+            <h2>Отзывы О Сайте</h2>
+
+            <div class="review">
+                <h3>Баглан Азаматулы</h3>
+                <p>Мен бұл сайтты өте ұнатамын! Қазақстанның мәдениеті мен дәстүрлері туралы ақпарат өте қызықты және пайдалы. Наурыз мерекесі туралы бөлім мені ерекше қызықтырды. <br> Сайттың дизайны да тамаша, ақпаратты оңай табуға болады. Осындай сайттар біздің мәдениетімізді дәріптейді. Рахмет!
+                    .</p>
+                <p class="date">16 декабря 2024</p>
+            </div>
+
+            <div class="review">
+                <h3>Бекзат Аманжолулы</h3>
+                <p>Бұл сайтта Қазақстанның бай мәдениеті мен дәстүрлері туралы көп қызықты ақпарат бар. Қазақтың ұлттық тағамдары мен музыкасы туралы бөлімдер өте әсерлі.
+                    <br> Мен отбасыммен бірге қазақтың мәдениеті мен дәстүрлерін тереңірек зерттей алатыныма қуаныштымын. Сайт өте ыңғайлы әрі түсінікті!!</p>
+                <p class="date">14 декабря 2024</p>
+            </div>
+
+            <div class="review">
+                <h3>Еламан Бакбергенов</h3>
+                <p>Мен үшін бұл сайт нағыз қазына! Қазақстанның мәдениеті мен тарихын тереңірек түсіну үшін керемет ресурс. Көне дәстүрлер мен қазіргі уақыттағы қазақ мәдениеті туралы ақпараттарды қамтып отыр. <br> Сайттың интерактивтілігі мен визуалды мазмұны өте ұнады. Мұндай жобаларды қолдаймын!</p>
+                <p class="date">12 декабря 2024</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Путеводитель по Казахстану. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
